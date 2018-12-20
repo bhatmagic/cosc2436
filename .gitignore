@@ -55,5 +55,7 @@ CTestTestfile.cmake
 *.xml
 *.iml
 *.cbp
+*.name
+*.idea
 
 # END .gitignore
