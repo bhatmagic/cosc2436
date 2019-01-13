@@ -1,6 +1,6 @@
-# Data Structures COSC2436
+# COSC2436 - Data Structures 
 
-This series is from my Data Structures class from Austin Community College (ACC) in Austin, TX.  These files are heavily commented as they're for learning purposes.  The programs successively use advanced c++ methods in their code.  I.e.) arrays->vectors.
+This series is from my Data Structures class from Austin Community College (ACC) in Austin, TX for FA2018.  These files are heavily commented as they're for learning purposes.
 
 ## Installation
 
