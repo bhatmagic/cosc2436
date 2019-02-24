@@ -1,61 +1,16 @@
-# https://github.com/github/gitignore
+#Vim
+*~
+*.swp
 
-#############
-### C++/C ###
-#############
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+#C/C++
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+appname(main)
 
-#############
-### CMake ###
-#############
+#Python
+*.py[cod]
+--pycache--
 
-CMakeLists.txt
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-*.xml
-*.iml
-*.cbp
-*.name
-*.idea
-
-# END .gitignore
+#Mac
+.DS.Store
