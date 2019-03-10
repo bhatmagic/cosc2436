@@ -26,7 +26,7 @@ Run
 
 How it works
 =============
-  After testing, weights will be saved to a weights.txt file.
+  After testing, weights will be saved to weights.txt.
 
 References
 ===========
