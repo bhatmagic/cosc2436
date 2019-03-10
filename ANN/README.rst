@@ -30,6 +30,6 @@ How it works
 References
 ===========
 
-https://github.com/huangzehao/SimpleNeuralNetwork/blob/master/src/neural-net.cpp\
-
-https://github.com/GarethRichards/Machine-Learning-CPP/blob/master/Chapter1/NeuralNet1.cpp\
+	https://github.com/huangzehao/SimpleNeuralNetwork/blob/master/src/neural-net.cpp\
+    
+	https://github.com/GarethRichards/Machine-Learning-CPP/blob/master/Chapter1/NeuralNet1.cpp\
