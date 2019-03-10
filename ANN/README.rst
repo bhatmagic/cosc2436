@@ -3,7 +3,7 @@ Artifical Neural Network
 :Authors: David Boyd, Jacob Reola
 :Date: Fall 2018
 
-This is a vector neural network testing and, or, xor.
+This repository holds the files for an artificial neural network program that tests: and, or, xor.
 
 Compile
 ========
@@ -12,16 +12,17 @@ Linux Command Line::
 
 	$ g++ std=c++1z -o main *.cpp
 
-Run Program:
+Run
+====
 
 	* argv == "and", "or", "xor", <filename.ext>
 
-Syntax::
+::
 
 	$ ./main and 
 	$ ./main or
 	$ ./main xor
-	$ ./main filename.ext
+	$ ./main <filename.ext>
 
 How it works
 =============
@@ -30,6 +31,6 @@ How it works
 References
 ===========
 
-	https://github.com/huangzehao/SimpleNeuralNetwork/blob/master/src/neural-net.cpp\
+`Huang Zehao - Simple Neural Network <https://github.com/huangzehao/SimpleNeuralNetwork/blob/master/src/neural-net.cpp>`_
     
-	https://github.com/GarethRichards/Machine-Learning-CPP/blob/master/Chapter1/NeuralNet1.cpp\
+`Gareth Richards - Machine-Learning-CPP <https://github.com/GarethRichards/Machine-Learning-CPP/blob/master/Chapter1/NeuralNet1.cpp>`_
