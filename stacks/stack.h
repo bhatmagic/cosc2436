@@ -5,32 +5,25 @@ Purpose: Stack header file.
 Notes: None.
 Completed: 2018.10.04
 ************************************************************************ */
-
-#ifndef BLUEPRINT2_STACK_STACK_H
-#define BLUEPRINT2_STACK_STACK_H
-
+#pragma once
 #include "main.h"
 
 // Global variables
 #define CAPACITY 6  // the maximum number of elements on the stack
 
 struct DATA {
-
     int id_;
     std::string data_;
 };
 
 class Stack {
-
-private:
-
+  private:
     int _count;    // the number of elements on the stack
     int _ids;      // the identification of each stack
     int _size;     // the maximum number of elements on the stack
     DATA **_arr;   // the stack itself: a dynamic array of pointers to DATA
 
-public:
-
+  public:
     Stack();
     ~Stack();
 
@@ -41,4 +34,3 @@ public:
     void push(DATA*);
     DATA *pop();
 };
-#endif //BLUEPRINT2_STACK_STACK_H
