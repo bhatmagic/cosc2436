@@ -2,7 +2,7 @@ Data Structures
 ################
 :Author: David Boyd
 :Term: Fall 2018
-:Purpose: Programs written to demonstrate 
+:Purpose: - Programs written to demonstrate 
 	- different types of data 
 	- structures used for 
 	- organizing and storing data.
