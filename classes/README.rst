@@ -10,6 +10,7 @@ The "pet" class that contains the following:
 ---------------------------------------------------------------
 
 **private attributes:**
+
 	- a string to hold the pet's name ( String or char[ ] )
 	- an integer to hold the pet's age
 
