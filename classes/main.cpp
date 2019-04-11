@@ -30,13 +30,19 @@ int main() {
     //creates a cat object with name, _age, and favorite food
     cat myCat2("貓貓", age, catFood);
 
+    std::cout << "[No arguments given]\n";
     displayPet(myPet1);
+    std::cout << "[Arguments given]\n";
     displayPet(myPet2);
 
+    std::cout << "[No arguments given]\n";
     displayDog(&myDog1);
+    std::cout << "[Arguments given]\n";
     displayDog(&myDog2);
 
+    std::cout << "[No arguments given]\n";
     displayCat(&myCat1);
+    std::cout << "[Arguments given]\n";
     displayCat(&myCat2);
 
     return 0;
