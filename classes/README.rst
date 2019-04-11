@@ -6,12 +6,12 @@ Pet Classes
 
 This program demonstrates class inheritance through shared Pet traits.
 
-The "pet" class that contains the following: 
----------------------------------------------------------------
+A pet class that contains the following:
+-----------------------------------------
 
 **private attributes:**
 
-	- a string to hold the pet's name ( String or char[ ] )
+	- a string to hold the pet's name
 	- an integer to hold the pet's age
 
 **following methods:**
@@ -32,7 +32,7 @@ A dog class inherits from the pet class and adds the following:
 	- a public method called "bark" that when called will print the dogs name and "has barked." e.g. "Fido has barked."
 
 A cat class that inherits from the pet class and adds the following:
------------------------------------------------------------------
+----------------------------------------------------------------------
 
 **private attributes:**
 
