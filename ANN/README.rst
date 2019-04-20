@@ -1,6 +1,6 @@
 Artifical Neural Network
 #########################
-:Authors: David Boyd, Jacob Reola
+:Authors: David Boyd, Jacob Reola, and others (see References)
 :Date: Fall 2018
 
 This repository holds the files for an artificial neural network program that tests: and, or, xor.
