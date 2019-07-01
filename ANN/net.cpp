@@ -7,7 +7,8 @@ Date: 2018.12.11
 ************************************************************************ */
 #include "net.h"
 
-double Net::m_recentAverageSmoothingFactor = 100.0; // Number of training samples to average over
+// Number of training samples to average over
+double Net::m_recentAverageSmoothingFactor = 100.0;
 
 //=================
 //=== Back Prop ===

@@ -23,4 +23,3 @@ Date: 2018.12.11
 #define BIAS_ACTIVATION 1.0
 #define MIN_WEIGHT -1.0
 #define MAX_WEIGHT 1.0
-

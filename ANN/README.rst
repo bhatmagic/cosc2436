@@ -8,7 +8,7 @@ This repository holds the files for an artificial neural network program that te
 Compile
 ========
 
-Linux Command Line:: 
+Linux Command Line::
 
 	$ g++ std=c++1z -o main *.cpp
 
@@ -19,7 +19,7 @@ Run
 
 ::
 
-	$ ./main and 
+	$ ./main and
 	$ ./main or
 	$ ./main xor
 	$ ./main <filename.ext>
@@ -32,5 +32,5 @@ References
 ===========
 
 `Huang Zehao - Simple Neural Network <https://github.com/huangzehao/SimpleNeuralNetwork/blob/master/src/neural-net.cpp>`_
-    
+
 `Gareth Richards - Machine-Learning-CPP <https://github.com/GarethRichards/Machine-Learning-CPP/blob/master/Chapter1/NeuralNet1.cpp>`_
