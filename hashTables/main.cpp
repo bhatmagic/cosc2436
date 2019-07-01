@@ -27,17 +27,22 @@ int main(int argc, char **argv) {
 
     std::cout<<"traverse():\n";
     hashObj.traverse();
-    std::cout<<"getNumberOfEntries:"<<SPACE << hashObj.getNumberOfEntries() << std:: endl;
+    std::cout << "getNumberOfEntries:"
+              << SPACE << hashObj.getNumberOfEntries() << std::endl;
     std::cout<<"isEmpty():"<<SPACE;
     hashObj.isEmpty() ? std::cout<<"Yes\n" : std::cout<<"No\n";
 
     // display array, contains
-    int arr[] = {100, 108, 117, 129, 157, 205, 155, 131, 156, 195, 115, 208, 132, 1, 2, 3, 4, 5, 6};
+    int arr[] = {100, 108, 117, 129, 157, 205, 155, 131, 156,
+                 195, 115, 208, 132, 1, 2, 3, 4, 5, 6};
     std::cout<<"\ncontains(arr[]):\n----------------------------------\n";
-    for (int i = 0; i < TABLE_SIZE; ++i) { std::cout<<std::setw(3)<<arr[i]<<SPACE; }; std::cout<<std::endl;
-    for (int i = 0; i < TABLE_SIZE; ++i) { hashObj.contains(arr[i]) ?
-                                           std::cout<<std::setw(3)<<"Yes"<<SPACE
-                                           : std::cout<<std::setw(3)<<"No"<<SPACE;} std::cout<<std::endl;
+    for (int i = 0; i < TABLE_SIZE; ++i) {
+        std::cout<<std::setw(3)<<arr[i]<<SPACE;};
+    std::cout<<std::endl;
+    for (int i = 0; i < TABLE_SIZE; ++i) {
+        hashObj.contains(arr[i]) ? std::cout<<std::setw(3)<<"Yes"<<SPACE
+                                 : std::cout<<std::setw(3)<<"No"<<SPACE;}
+    std::cout<<std::endl;
 
     // Remove nodes
     std::cout<<"\nremove(117):"<<SPACE;
@@ -49,7 +54,8 @@ int main(int argc, char **argv) {
     std::cout<<"remove(6):"<<SPACE;
     hashObj.remove(6) ? std::cout<<"Yes\n" : std::cout<<"Nope\n";
     hashObj.traverse();
-    std::cout<<"getNumberOfEntries:"<<SPACE << hashObj.getNumberOfEntries() << std:: endl;
+    std::cout << "getNumberOfEntries:"
+              << SPACE << hashObj.getNumberOfEntries() << std::endl;
 
 
     std::cout<<"getData(131):" << SPACE << hashObj.getData(131);
@@ -58,7 +64,8 @@ int main(int argc, char **argv) {
     std::cout<<"clear():"<<SPACE;
     hashObj.clear() ? std::cout<<"Yes.\n" : std::cout<<"NOT cleared.\n";
 
-    std::cout<<"getNumberOfEntries: " << hashObj.getNumberOfEntries() << std:: endl;
+    std::cout << "getNumberOfEntries: "
+              << hashObj.getNumberOfEntries() << std::endl;
 
     std::cout<<"traverse(): <post-clear>"<<SPACE;
     hashObj.traverse() ? std::cout<<"Fu duq?\n" : std::cout<<"Nope\n";

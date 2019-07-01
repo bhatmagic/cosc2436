@@ -1,5 +1,5 @@
 Hash Table
-#########################
+##########
 :Author: David Boyd
 :Date: Fall 2018
 

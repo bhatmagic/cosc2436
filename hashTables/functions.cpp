@@ -1,7 +1,7 @@
 /* ************************************************************************
 Name: David Boyd
 Assignment: 05, Binary Search Tree
-Purpose: Functions definitions file 
+Purpose: Functions definitions file
 Notes: none.
 Date: 2018.11.23
       2018.11.26
