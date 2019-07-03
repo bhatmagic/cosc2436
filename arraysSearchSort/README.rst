@@ -27,7 +27,7 @@ This program requires the cities file as its argument.  From the command line::
 How it Works
 =============
 
-	1. Reads the file given from the command line and places the information in TWO different arrays. One 1-dimensional array of strings (or a 2D array of characters) and one 2-dimensional array of integers.  
+	1. Reads the file given from the command line and places the information in TWO different arrays. One 1-dimensional array of strings (or a 2D array of characters) and one 2-dimensional array of integers.
 
 	2. Prints out the information from the arrays showing the file was read correctly.
 
