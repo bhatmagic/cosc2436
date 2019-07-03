@@ -18,7 +18,7 @@ Completed: 2018.09.01
  * Notes    : none.
  */
 cat::cat() {
-	setFavFood("");
+    setFavFood("");
 }
 
 //==============================
@@ -32,9 +32,9 @@ cat::cat() {
  * Notes    : none.
  */
 cat::cat(string name, int age, string favFood) {
-	setName(std::move(name));
-	setAge(age);
-	setFavFood(std::move(favFood));
+    setName(std::move(name));
+    setAge(age);
+    setFavFood(std::move(favFood));
 }
 
 //=========================
@@ -48,7 +48,7 @@ cat::cat(string name, int age, string favFood) {
  * Notes    : none.
  */
 string cat::getFavFood() {
-	return _favFood;
+    return _favFood;
 }
 
 //============
@@ -62,7 +62,7 @@ string cat::getFavFood() {
  * Notes    : none.
  */
 string cat::meow(){
-	return pet::getName() + " wants " + getFavFood();
+    return pet::getName() + " wants " + getFavFood();
 
 }
 
@@ -77,5 +77,5 @@ string cat::meow(){
  * Notes    : none.
  */
 void cat::setFavFood(string favFood) {
-	(favFood.empty()) ? (this->_favFood = "food") : (this->_favFood = favFood);
+    (favFood.empty()) ? (this->_favFood = "food") : (this->_favFood = favFood);
 }

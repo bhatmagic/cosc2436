@@ -15,20 +15,20 @@ class cat : public pet {
 
 private:
 
-	//private variables that define a cat from just a pet
-	string _favFood;
+    //private variables that define a cat from just a pet
+    string _favFood;
 
 public:
 
-	// Constructors & Destructor
-	cat();
-	cat(string, int, string);
-	//~cat();	// Not used
+    // Constructors & Destructor
+    cat();
+    cat(string, int, string);
+    //~cat();   // Not used
 
-	// Methods
-	string getFavFood();
-	string meow(); 	// Displays string
-	void setFavFood(string);
+    // Methods
+    string getFavFood();
+    string meow();   // Displays string
+    void setFavFood(string);
 
 };
 

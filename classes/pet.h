@@ -21,16 +21,16 @@ protected:
 
 public:
 
-	// Constructors & Destructor
-	pet();
-	pet(string name, int age);
-	// ~pet();	// Not used.
+    // Constructors & Destructor
+    pet();
+    pet(string name, int age);
+    // ~pet();    // Not used.
 
-	// Getters & Setters
-	int getAge();
-	string getName();
-	void setAge(int);
-	void setName(string);
+    // Getters & Setters
+    int getAge();
+    string getName();
+    void setAge(int);
+    void setName(string);
 };
 
 #endif // PETS_PET_H

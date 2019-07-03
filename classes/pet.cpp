@@ -18,8 +18,8 @@ Completed: 2018.09.01
  * Notes    : n/a
  */
 pet::pet() {
-	setName("");
-	setAge(0);
+    setName("");
+    setAge(0);
 }
 
 //==============================
@@ -34,8 +34,8 @@ pet::pet() {
  *          : different parameters in the same class.
  */
 pet::pet(string name, int a) {
-	setName(std::move(name));
-	setAge(a);
+    setName(std::move(name));
+    setAge(a);
 }
 
 //===================
@@ -49,7 +49,7 @@ pet::pet(string name, int a) {
  * Notes    : none.
  */
 int pet::getAge() {
-	return _age;
+    return _age;
 }
 
 //================
@@ -63,7 +63,7 @@ int pet::getAge() {
  * Notes    : n/a
  */
 string pet::getName() {
-	return _name;
+    return _name;
 }
 
 //===============
@@ -77,7 +77,7 @@ string pet::getName() {
  * Notes    : none.
  */
 void pet::setAge(int age) {
-	(age > 0) ? (this->_age = age) : (this->_age = 0);
+    (age > 0) ? (this->_age = age) : (this->_age = 0);
 }
 
 //================
@@ -91,5 +91,5 @@ void pet::setAge(int age) {
  * Notes    : none.
  */
 void pet::setName(string name) {
-	(name.empty()) ? (this->_name = "No Name") : (this->_name = name);
+    (name.empty()) ? (this->_name = "No Name") : (this->_name = name);
 }

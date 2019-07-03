@@ -18,7 +18,7 @@ Completed: 2018.09.01
  * Notes    : none.
  */
 dog::dog() {
-	setIsAKC(false);
+    setIsAKC(false);
 }
 
 //==============================
@@ -32,10 +32,10 @@ dog::dog() {
  * Notes    : none.
  */
 dog::dog(string name, int age, bool akc) {
-	//use your own setters!
-	setName(std::move(name));
-	setAge(age);
-	setIsAKC(akc);
+    //use your own setters!
+    setName(std::move(name));
+    setAge(age);
+    setIsAKC(akc);
 }
 
 //============
@@ -49,7 +49,7 @@ dog::dog(string name, int age, bool akc) {
  * Notes    : none.
  */
 string dog::bark() {
-	return (pet::getName() + " has barked.");
+    return (pet::getName() + " has barked.");
 }
 
 //==================
@@ -63,7 +63,7 @@ string dog::bark() {
  * Notes    : none.
  */
 bool dog::getIsAKC() {
-	return (isAKC);
+    return (isAKC);
 }
 
 //=========================
@@ -77,5 +77,5 @@ bool dog::getIsAKC() {
  * Notes    : none.
  */
 void dog::setIsAKC(bool akc) {
-	this->isAKC = akc;
+    this->isAKC = akc;
 }

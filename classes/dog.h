@@ -15,20 +15,20 @@ class dog : public pet {
 
 private:
 
-	//private variables that define a dog (from a pet)
-	bool isAKC; // AKC stands for American Kennel Club
+    //private variables that define a dog (from a pet)
+    bool isAKC; // AKC stands for American Kennel Club
 
 public:
 
-	// Constructors & Destructor
-	dog();
-	dog(string, int, bool);
-	// ~dog(); // Not used.
+    // Constructors & Destructor
+    dog();
+    dog(string, int, bool);
+    // ~dog(); // Not used.
 
-	// Methods
-	string bark(); 		// displays message
-	bool getIsAKC();
-	void setIsAKC(bool);
+    // Methods
+    string bark();  // displays message
+    bool getIsAKC();
+    void setIsAKC(bool);
 
 };
 
