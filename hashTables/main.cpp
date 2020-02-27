@@ -13,9 +13,17 @@ Completed: 2018.11.27
 
 int main(int argc, char **argv) {
 
+    // Check argument count
+    if (argc != 2) {
+        std::cout << "[*] Hash Table" << std::endl;
+        std::cout << "[*] Usage:    : argv[2] <data.csv>" << std::endl;
+        return 0;
+    }
+
+    // initialize dataFile to filename
     std::string dataFile = argv[1];
 
-    // If !inFile, exit program
+    // Check if file exists
     if (!test(dataFile)) { return 0; }
 
     // create hash object & table
