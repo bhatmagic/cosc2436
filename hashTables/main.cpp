@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
     // Check argument count
     if (argc != 2) {
         std::cout << "[*] Hash Table" << std::endl;
-        std::cout << "[*] Usage:    : argv[2] <data.csv>" << std::endl;
+        std::cout << "[*] Usage:    : argv[1] <data.csv>" << std::endl;
         return 0;
     }
 
