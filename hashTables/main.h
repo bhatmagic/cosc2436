@@ -22,6 +22,5 @@ const int MAX_RAND = 999;
 const int MIN_RAND = 100;
 const std::string SPACE = " ";
 
-
-
 #endif //HASHME29_MAIN_H
+

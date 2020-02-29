@@ -18,3 +18,4 @@ void displayFileError(bool);
 void createHashTable(HashTable*, std::string);
 
 #endif //HASHME29_FUNCTIONS_H
+

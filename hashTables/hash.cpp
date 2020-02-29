@@ -178,3 +178,4 @@ void HashTable::_visit(Dictionary* entry){
     std::cout << " -> " << "[" << entry->key << ", " << entry->data << "]";
     _visit(entry->next);
 }
+

@@ -46,4 +46,6 @@ public:
     bool remove(int);
     bool traverse();
 };
+
 #endif //HASHME29_HASH_H
+

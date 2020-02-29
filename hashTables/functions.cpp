@@ -46,3 +46,4 @@ bool test(std::string filename) {
     inFile.close();
     return (!(inFile.fail()));
 }
+
