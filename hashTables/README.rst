@@ -48,17 +48,17 @@ Design
 Test
 ----
 
-	- The object is instantiated, read in data.csv, and adds all the entries
+	- The object is instantiated, reads in data.csv, and adds all the entries
 	  into the table when the program starts.
 	- main.cpp demonstrates all hash table funtionality including collisions.
 	- Demonstrates deletion of an entry in a location of a previous attempted
 	  collision.
-	- Demonstrates the full funtionality of your program and all the methods.
+	- Demonstrates the full funtionality of the program and all the methods.
 
 How to Run
 ==========
 
-Running from UNIX-base CLI:
+Running using UNIX-base CLI:
 
 .. code-block :: Bash
 
