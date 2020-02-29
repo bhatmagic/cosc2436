@@ -3,8 +3,9 @@ Name: David Boyd
 Assignment: 05, Binary Search Tree
 Purpose: Main source file
 Notes: none.
-Date: 2018.11.23
+Date: 2020.02.28 - Changed output for better readability
       2018.11.26
+      2018.11.23
 Completed: 2018.11.27
 ************************************************************************ */
 #include "main.h"
