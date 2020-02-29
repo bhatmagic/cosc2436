@@ -58,7 +58,7 @@ Test
 How to Run
 ==========
 
-Running using UNIX-base CLI:
+Run using UNIX-base CLI:
 
 .. code-block :: Bash
 
