@@ -120,9 +120,8 @@ int main(int argc, char **argv) {
     std::cout << "===================" << std::endl;
     std::cout << "obj.clear(): ";
     hashObj.clear() ? std::cout << "cleared\n" : std::cout << "NOT cleared.\n";
-    std::cout << "-------------------" << std::endl;
     // Print accessors
-    std::cout << "----------------------" << std::endl;
+    std::cout << "-------------------" << std::endl;
     std::cout << "obj.getNumberOfEntries(): "
               << hashObj.getNumberOfEntries() << std::endl;
     std::cout << "obj.isEmpty()   : ";
